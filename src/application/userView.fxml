@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="installmentButton" layoutX="1.0" layoutY="70.0" mnemonicParsing="false" onAction="#payInstallment" text="Property by Installements" />
+            <Button fx:id="contractbutton" layoutX="21.0" layoutY="110.0" mnemonicParsing="false" onAction="#gotoContractor" text="Book a Contractor" />
+            <Button fx:id="payPropertybutton" layoutX="128.0" layoutY="149.0" mnemonicParsing="false" onAction="#payProperty" text="Pay Property Rent" />
+            <Button fx:id="paycommbutton" layoutX="204.0" layoutY="32.0" mnemonicParsing="false" onAction="#payCommercial" text="Pay Commerical Rent" />
+            <Button fx:id="logout" layoutX="294.0" layoutY="206.0" mnemonicParsing="false" onAction="#gotoSample" text="Log out" />
+            <Button fx:id="exitbutton" layoutX="305.0" layoutY="244.0" mnemonicParsing="false" onAction="#exitMenu" text="Exit" />
+            <Button fx:id="propertydetailbutton" layoutX="26.0" layoutY="32.0" mnemonicParsing="false" onAction="#openPropertyDetail" text="Property Details" />
+            <CubicCurve controlX1="-23.20709228515625" controlX2="-187.17422485351562" controlY1="-243.99998474121094" controlY2="44.4000244140625" endX="150.0" fill="DODGERBLUE" layoutX="107.0" layoutY="304.0" startX="-150.0" stroke="BLACK" />
+            <Button fx:id="feedbackgivebutton" layoutX="222.0" layoutY="70.0" mnemonicParsing="false" onAction="#giveFeedback" text="Give Feedback" />
+            <Button fx:id="givereportButton" layoutX="213.0" layoutY="110.0" mnemonicParsing="false" onAction="#giveReport" text="Report a problem" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="102.0" prefWidth="368.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="116.0" fitWidth="120.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@UpTown%20Builders-1.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="237.0" layoutY="41.0" text="Home">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
