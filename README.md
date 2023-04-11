@@ -1,25 +1,25 @@
 # Uptown-Beverly-Management-System
 Implemented a housing society managment using Java, JavafFX, mySQL and Scene Builder.
 
-1. Purpose
+1. Purpose:
 The purpose of the project is to ease the mechanism of property buying and selling. Its scope is
 only the residents of our housing society. It describes a single subsystem.
 
-2. Product Scope
+2. Product Scope:
 Our software is for the residents of our housing society. Anyone who purchases a property in our
 housing society may have access to the software.
 
-3. Title
+3. Title:
 Our project is titled “Beverly Paradise Members Management System”. This will provide a
 management software where members residing or owning properties in our housing society i.e.
 Beverly Paradise can perform all necessary operations relating our housing society such as checking
 updates, paying installments, giving feedback etc.
 
-4. Objectives
+4. Objectives:
 The objective of our project is to digitalize all the operations that in past took place in our physical
 offices which will now be able to take place from homes. It not only makes it easier but also faster.
 
-5. Problem Statement
+5. Problem Statement:
 Our members visit our office at least once every month to obtain challan and pay the dues for
 monthly development charges. The visits often increase as the needs do. With the help of our
 management system, members won’t have to visit our offices. They can simply submit charges from
