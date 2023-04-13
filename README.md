@@ -1,5 +1,5 @@
 # Uptown-Beverly-Management-System
-Implemented a housing society managment using Java, JavafFX, mySQL and Scene Builder.
+Implemented a real estate managment using Java, JavafFX, mySQL and Scene Builder.
 
 1. Purpose:
 The purpose of the project is to ease the mechanism of property buying and selling. Its scope is
